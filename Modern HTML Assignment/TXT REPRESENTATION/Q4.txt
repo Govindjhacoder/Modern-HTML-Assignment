@@ -1,0 +1,17 @@
+Q4. List any 3 ways which help us in improving the accessibility of HTML?
+Ans. Improving the accessibility of HTML involves adopting practices that ensure a positive user experience for individuals with disabilities. Here are three key ways to enhance the accessibility of HTML:
+
+1. **Use Semantic HTML Elements:**
+   - Employ semantic HTML elements to provide meaningful structure to your content. Semantic elements like `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>` help assistive technologies and screen readers interpret and convey the structure of your webpage accurately.
+   - Properly structure your documents using headings (`<h1>`, `<h2>`, etc.) to create a hierarchy that reflects the organization of your content. This aids users in understanding the relationships between different sections.
+
+2. **Provide Descriptive Alt Text for Images:**
+   - Use the `alt` attribute with the `<img>` element to provide descriptive alternative text for images. This is crucial for users who rely on screen readers to understand the content of your website.
+   - Write concise and accurate alt text that conveys the purpose or information conveyed by the image. Avoid leaving the alt text empty unless the image is purely decorative and doesn't convey meaningful information.
+
+3. **Ensure Keyboard Accessibility:**
+   - Design your web pages to be navigable and interactive using a keyboard alone. This is essential for users who may have mobility impairments and rely on keyboard navigation.
+   - Test your website's functionality with only the keyboard, making sure that all interactive elements, such as links and form controls, can be accessed and activated using keyboard shortcuts.
+   - Avoid relying on mouse-specific events, and ensure that focus indicators are clearly visible to indicate the currently focused element.
+
+By incorporating these practices, you contribute to a more inclusive online experience, making your HTML content accessible to a broader audience, including individuals with disabilities who use assistive technologies. Additionally, it's important to regularly test and validate your website's accessibility using tools and guidelines such as the Web Content Accessibility Guidelines (WCAG).
